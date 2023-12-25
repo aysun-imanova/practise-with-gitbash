@@ -8,20 +8,20 @@ public class Main {
         Recursion recursion = new Recursion();
         ForLoops forLoops = new ForLoops();
 
-/** You can uncomment any method to call it.
+/**
+ *  You can uncomment any method to call it.
+ * */
 
 
- create.findAvg();
-
- recursion.printClass();
-
- forLoops.nestedLoop();
- forLoops.printStarPyramid();
- forLoops.printStarReverse();
-
-
- */
-
+//        create.findAvg();
+//
+//        recursion.printClass();
+//
+//        forLoops.nestedLoop();
+//        forLoops.printStarPyramid();
+//        forLoops.printStarOpposite();
+//        forLoops.printStarReverse();
+//        forLoops.printEqualsMark();
 
     }
 }
