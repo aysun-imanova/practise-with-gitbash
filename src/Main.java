@@ -25,8 +25,7 @@ public class Main {
 //        forLoops.printStarReverse();
 //        forLoops.printEqualsMark();
 
-        calc.calculate();
-
+//        calc.calculate();
 
     }
 }
