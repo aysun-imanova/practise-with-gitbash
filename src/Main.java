@@ -1,3 +1,4 @@
+import calculator.main.Calculator;
 import find_arrays_avg.CreateArrays;
 import loops.ForLoops;
 import recursive.Recursion;
@@ -7,6 +8,7 @@ public class Main {
         CreateArrays create = new CreateArrays();
         Recursion recursion = new Recursion();
         ForLoops forLoops = new ForLoops();
+        Calculator calc = new Calculator();
 
 /**
  *  You can uncomment any method to call it.
@@ -22,6 +24,9 @@ public class Main {
 //        forLoops.printStarOpposite();
 //        forLoops.printStarReverse();
 //        forLoops.printEqualsMark();
+
+        calc.calculate();
+
 
     }
 }
