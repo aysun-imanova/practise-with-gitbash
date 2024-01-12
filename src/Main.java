@@ -1,16 +1,13 @@
-import calculator.main.Calculator;
 import find_arrays_avg.CreateArrays;
 import loops.ForLoops;
+import methods.Months;
 import recursive.Recursion;
-import string.TasksString;
 
 public class Main {
     public static void main(String[] args) {
         CreateArrays create = new CreateArrays();
         Recursion recursion = new Recursion();
         ForLoops forLoops = new ForLoops();
-        Calculator calc = new Calculator();
-        TasksString str = new TasksString();
 
 /**
  *  You can uncomment any method to call it.
@@ -27,11 +24,11 @@ public class Main {
 //        forLoops.printStarReverse();
 //        forLoops.printEqualsMark();
 
-//        calc.calculate();
 
-        str.check();
-
+        for (Months months : Months.values()) {
+            System.out.println(months + " " + months.getValue());
+        }
 
     }
-
 }
+

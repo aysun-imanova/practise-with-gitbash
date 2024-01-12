@@ -1,6 +1,7 @@
 package calculator.util;
 
 public class MathUtil {
+
     public double add(double a, double b) {
         return a + b;
     }
@@ -16,4 +17,5 @@ public class MathUtil {
     public double div(double a, double b) {
         return a / b;
     }
+
 }

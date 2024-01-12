@@ -56,6 +56,15 @@ public class ForLoops {
         }
     }
 
+    public long printFactorial(int number) {
+        long factorial = 1;
+        for (int i = 1; i <= number; i++) {
+            factorial = factorial * i;
+        }
+        System.out.println(number + "!" + " equals:  " + factorial);
+        return factorial;
+    }
+
 }
 
 
