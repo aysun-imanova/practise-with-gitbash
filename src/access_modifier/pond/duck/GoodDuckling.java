@@ -6,5 +6,6 @@ public class GoodDuckling {
         motherDuck.quack();
         System.out.println(motherDuck.noise);
 
+        //System.out.println(motherDuck.makeNoise); we can't call the private method
     }
 }
