@@ -14,5 +14,7 @@ public class TestMain {
         System.out.println(worker.test());
 //        System.out.println(worker.testInt()); -> can't call
         System.out.println(CanWorkable.testInt());//can call
+
+
     }
 }
