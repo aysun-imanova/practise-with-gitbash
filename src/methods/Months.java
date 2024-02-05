@@ -1,7 +1,5 @@
 package methods;
 
-import org.jetbrains.annotations.Contract;
-
 import java.util.Scanner;
 
 public enum Months implements SomeMethods {
@@ -71,8 +69,7 @@ public enum Months implements SomeMethods {
 
     private int value;
 
-    @Contract(pure = true)
-    private Months(int value) {
+    Months(int value) {
         this.value = value;
     }
 
